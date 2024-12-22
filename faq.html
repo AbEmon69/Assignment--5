@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme = 'light'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faq</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="sticky top-0  backdrop-filter backdrop-blur-lg">
+        <nav >
+         <div class="navbar bg-orange-50  lg:px-20  lg:pt-4 lg:pb-12">
+           <div class="navbar-start">
+             <div>
+               <button class="btn bg-lime-400 lg:px-7 w-12 lg:w-20">Blog</button>
+             </div>
+             </div>
+           <div class="navbar-center">
+              <div class="flex items-center justify-center gap-2 navbar-center lg:mx-auto ">
+               <div class="lg:border-2 lg:border-dashed w-6  ">
+                 <img src="assets/logo.png" alt="">
+               </div>
+               <div>
+                 <p class="font-bold">Donate Bangladesh</p>
+               </div>
+            </div>
+           </div>
+           <div class="navbar-end">
+             <div class="flex items-center justify-center lg:gap-2 navbar-center ml-3">
+               <div class="lg:border-2 lg:border-dashed w-6 ">
+                 <img src="assets/coin.png" alt="">
+               </div>
+               <div>
+                <span> <p class="font-bold lg:text-gray-500 text-sm">5500 BDT</p></span>
+               </div>
+           
+         </div>
+        </nav>
+     </header>
+     <!-- faq section -->
+     <main class="p-10">
+        <h1 class="font-bold mb-5 text-2xl">Important FAQ</h1>
+        <div class="collapse collapse-arrow border-2">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl  font-bold">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+              <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a document (such as an HTML or XML file) as a tree of objects that can be accessed, modified, and manipulated by programming languages like JavaScript. This allows developers to dynamically change the content, structure, and styling of a web page.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow border-2">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-bold">How do you select an element from the DOM ?</div>
+            <div class="collapse-content">
+              <p>I can select elements from the DOM using various methods provided by JavaScript. Here’s an overview of the most common approaches: By ID , By Class Name,By Tag Name</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow border-2">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-bold">What is event delegation in the context of the DOM, and why is it useful?</div>
+            <div class="collapse-content">
+              <p>
+                Event delegation is a technique in the DOM where a single event listener is attached to a parent element to handle events for its child elements, even if those child elements are added dynamically. Instead of adding event listeners to multiple child elements individually, you use the parent element to listen for events that "bubble up" from the children.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow border-2">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-bold">How do you  manipulate an element's attributes and styles using the DOM ?</div>
+            <div class="collapse-content">
+              <p>Manipulating an element's attributes and styles using the DOM can be done with JavaScript. Here’s a comprehensive guide on how to achieve this: 1. Get an Attribute 2. Set an Attribute 3. Remove an Attribute 4.Direct Property Access</p>
+            </div>
+          </div>
+     </main>
+    
+</body>
+</html>

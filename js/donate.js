@@ -29,7 +29,7 @@ if(isNaN(addMoney) || addMoney <='0'){
 //   add to history
 const div =document.createElement('div') 
 const date = new Date()
-div.classList.add('p-8','outline','outline-[#E7E7E7]' ,'rounded-lg','mb-2','mt-2','w-[800px]','mx-auto')
+div.classList.add('p-8','outline','outline-[#E7E7E7]' ,'rounded-lg','mb-2','mt-2','max-w-[800px]','mx-auto')
 div.innerHTML =`
 <h2 class="font-bold lg:text-xl text-sm text-[#111111] mb-4">${addMoney} Taka is Donated for Flood at Noakhali, Bangladesh</h2>
 <p class="font-light lg:text-[16px] text-sm">${date}</p> `
@@ -66,7 +66,7 @@ if(addMoney <=0){
 //   add to history
 const div =document.createElement('div') 
 const date = new Date()
-div.classList.add('p-8','outline','outline-[#E7E7E7]' ,'rounded-lg','mb-2','mt-2','w-[800px]','mx-auto')
+div.classList.add('p-8','outline','outline-[#E7E7E7]' ,'rounded-lg','mb-2','mt-2','max-w-[800px]','mx-auto')
 div.innerHTML =`
 <h2 class="font-bold lg:text-xl text-sm text-[#111111] mb-4">${addMoney} Taka is Donated for Flood Relief in Feni,Bangladesh</h2>
 <p class="font-light lg:text-[16px] text-sm">${date}</p> `
@@ -100,7 +100,7 @@ if(isNaN(addMoney)){
 //   add to history
 const div =document.createElement('div') 
 const date = new Date()
-div.classList.add('p-8','outline','outline-[#E7E7E7]' ,'rounded-lg','mb-2','mt-2','w-[800px]','mx-auto')
+div.classList.add('p-8','outline','outline-[#E7E7E7]' ,'rounded-lg','mb-2','mt-2','max-w-[800px]','mx-auto')
 div.innerHTML =`
 <h2 class="font-bold lg:text-xl text-sm text-[#111111] mb-4">${addMoney} Taka is Donated for Injured in the Quota Movement</h2>
 <p class="font-light lg:text-[16px] text-sm">${date}</p> `
